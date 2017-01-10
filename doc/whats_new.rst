@@ -253,6 +253,7 @@ Enhancements
      `#7154 <https://github.com/scikit-learn/scikit-learn/pull/7154>`_ by
      `Manvendra Singh`_.
 
+<<<<<<< HEAD
    - :class:`RobustScaler` now accepts ``quantile_range`` parameter.
      (`#5929 <https://github.com/scikit-learn/scikit-learn/pull/5929>`_)
      By `Konstantin Podshumok`_.
@@ -263,6 +264,12 @@ Enhancements
      generating attribute ``estimators_samples_`` only when it is needed.
      By `David Staub`_.
 
+=======
+   - :class:`ensemble.GradientBoostingClassifier` and :class:`ensemble.GradientBoostingRegressor`
+     now support sparse input for prediction.
+     (`#6101 <https://github.com/scikit-learn/scikit-learn/pull/6101>`_)
+     By `Ibraim Ganiev`_.
+>>>>>>> 00e74e13d182be1dd7af3a6b295e8392b3c0f80f
 
 Bug fixes
 .........
